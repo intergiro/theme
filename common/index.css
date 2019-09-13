@@ -74,7 +74,7 @@ html,
 [fill=default] {
 	color: rgb(var(--smoothly-color-contrast));
 	fill: rgb(var(--smoothly-color-contrast));
-	background: rgb(var(--smoothly-color-color));
+	background: rgb(var(--smoothly-color));
 	border-color: transparent;
 }
 [fill=outline] {
