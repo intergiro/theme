@@ -1,4 +1,4 @@
-@import "~normalize.css/normalize.css";
+@import "./ionic-normalize.css";
 input,
 button {
 	color: unset;
@@ -74,7 +74,7 @@ html,
 [fill=default] {
 	color: rgb(var(--smoothly-color-contrast));
 	fill: rgb(var(--smoothly-color-contrast));
-	background: rgb(var(--smoothly-color));
+	background: rgb(var(--smoothly-color-color));
 	border-color: transparent;
 }
 [fill=outline] {
