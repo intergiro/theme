@@ -1,3 +1,5 @@
+@import "../common/index.css";
+
 :root {
 	--smoothly-font-family: "Open Sans", "Arial Narrow", Arial, sans-serif;
 	--smoothly-semitransparent: .8;
