@@ -10,11 +10,10 @@
 	--smoothly-default-shade: 238, 238, 236;
 	--smoothly-default-tint: 136, 138, 133;
 
-	--smoothly-primary-color: 19,195,120;
-	--smoothly-primary-contrast: 228, 240, 234;
-	--smoothly-primary-shade: 0, 0, 0;
-	--smoothly-primary-tint: 124, 224, 181;
-
+	--smoothly-primary-color: 0, 160, 160;
+	--smoothly-primary-contrast: 216, 242, 243;
+	--smoothly-primary-shade: 25, 127, 83;
+	--smoothly-primary-tint: 100, 215, 218;
 
 	--smoothly-secondary-color: 100, 215, 218;
 	--smoothly-secondary-contrast: 216, 242, 243;
@@ -26,10 +25,10 @@
 	--smoothly-tertiary-shade: 0, 132, 136;
 	--smoothly-tertiary-tint: 79, 248, 255;
 
-	--smoothly-success-color: 115, 210, 22;
+	--smoothly-success-color: 19, 195, 120;
 	--smoothly-success-contrast: 255, 255, 255;
-	--smoothly-success-shade: 78, 154, 6;
-	--smoothly-success-tint: 138, 226, 52;
+	--smoothly-success-shade: 25, 127, 83;
+	--smoothly-success-tint: 124, 224, 181;
 
 	--smoothly-warning-color: 232, 190, 0;
 	--smoothly-warning-contrast: 255, 255, 255;
@@ -64,6 +63,18 @@ body > portal-app > header > h1 {
 	display: none;
 }
 body > portal-app > header {
+	background-image: url("./logo.svg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-color: black;
+}
+body > portal-app > portal-login > portal-order-view > nav {
+	background-color: black;
+}
+body > header > h1 {
+	display: none;
+}
+body > header {
 	background-image: url("./logo.svg");
 	background-size: contain;
 	background-repeat: no-repeat;
