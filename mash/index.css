@@ -55,6 +55,9 @@
 	--smoothly-dark-contrast: 238, 238, 236;
 	--smoothly-dark-shade: 46, 52, 54;
 	--smoothly-dark-tint: 136, 138, 133;
+
+	--smoothly-shadow: 0 0 4px 2px rgba(var(--smoothly-dark-color), 0.15);
+	--smoothly-strong-shadow: 0 0 4px 4px rgba(var(--smoothly-dark-color), 0.25);
 }
 
 body > portal-app > header > h1 {
@@ -64,4 +67,5 @@ body > portal-app > header {
 	background-image: url("./logo.svg");
 	background-size: contain;
 	background-repeat: no-repeat;
+	background-color: black;
 }
