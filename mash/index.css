@@ -81,6 +81,19 @@ body > header {
 	background-color: black;
 }
 body > main > form > payfunc-checkout > payfunc-customer > form > smoothly-submit > button:hover,
-body > main > form > payfunc-checkout > smoothly-submit > button:hover {
+body > main > form > payfunc-checkout > smoothly-submit > button:hover,
+body > portal-app > portal-login > smoothly-dialog > main > form > smoothly-submit > button:hover {
 	background-color: rgb(var(--smoothly-primary-color));
+}
+body > portal-app > portal-login > smoothly-dialog > main > header > h1 {
+	display: none;
+}
+body > portal-app > portal-login > smoothly-dialog > main > header {
+	background-image: url("./logo.svg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-color: black;
+}
+body > portal-app > portal-login > smoothly-dialog.sc-smoothly-dialog-h > main.sc-smoothly-dialog {
+	height: auto;
 }
