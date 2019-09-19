@@ -94,6 +94,3 @@ body > portal-app > portal-login > smoothly-dialog > main > header {
 	background-repeat: no-repeat;
 	background-color: black;
 }
-body > portal-app > portal-login > smoothly-dialog.sc-smoothly-dialog-h > main.sc-smoothly-dialog {
-	height: auto;
-}
