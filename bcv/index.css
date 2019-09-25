@@ -48,7 +48,7 @@
 
 cardfunc-input > smoothly-input[type="card-expires"],
 cardfunc-input > smoothly-input[type="card-csc"] {
-    border-top: none !important;
+	border-top: none !important;
 	border-left: none !important;
 }
 
