@@ -67,11 +67,11 @@ body {
 
   smoothly-input:focus-within > label,
   smoothly-input.has-value > label {
-	  top: -.4em !important;
+	top: -.4em !important;
   }
   
   cardfunc-element {
-	  height: 7em;
+	height: 7em;
   }
 
   /* Container */
