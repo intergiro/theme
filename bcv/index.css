@@ -6,7 +6,7 @@
 	--smoothly-default-contrast: 43, 48, 51; /* Custom color */
 	--smoothly-default-shade: 238, 238, 236;
 	--smoothly-default-tint: 136, 138, 133;
-	--smoothly-primary-color: 13, 182, 255;
+	--smoothly-primary-color: 26, 26, 255; /* Custom color */
 	--smoothly-primary-contrast: 242, 242, 242;
 	--smoothly-primary-shade: 0, 119, 171;
 	--smoothly-primary-tint: 140, 220, 255;
@@ -79,7 +79,8 @@ cardfunc-element {
 	display: flex;
 	flex-direction: column-reverse;
 	padding: 0px;
-	margin-bottom: 0px;
+	margin-top: -2px;
+	margin-bottom: -2px;
 }
 
 .sc-smoothly-input-h:before {
