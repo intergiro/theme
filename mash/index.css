@@ -59,10 +59,10 @@
 	--smoothly-shadow-strong: 0 0 4px 4px rgba(var(--smoothly-dark-color), 0.25);
 }
 
-body > portal-app > header > h1 {
+body > portal-app > portal-login > portal-order-view > header > h1 {
 	display: none;
 }
-body > portal-app > header {
+body > portal-app > portal-login > portal-order-view > header {
 	background-image: url("./logo.svg");
 	background-size: contain;
 	background-repeat: no-repeat;
