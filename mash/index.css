@@ -58,19 +58,35 @@
 	--smoothly-shadow: 0 0 4px 2px rgba(var(--smoothly-dark-color), 0.15);
 	--smoothly-shadow-strong: 0 0 4px 4px rgba(var(--smoothly-dark-color), 0.25);
 }
-
-body > portal-app > portal-login > portal-order-view > header > h1 {
+/* PayFunc Portal */
+body > payfunc-portal > portal-login > header > h1,
+body > payfunc-portal > portal-login > smoothly-dialog > header > h1 {
 	display: none;
 }
-body > portal-app > portal-login > portal-order-view > header {
+body > payfunc-portal > portal-login > header.sc-payfunc-portal,
+body > payfunc-portal > portal-login > smoothly-dialog.sc-smoothly-dialog-h > header.sc-smoothly-dialog {
 	background-image: url("./logo.svg");
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-color: black;
 }
-body > portal-app > portal-login > portal-order-view > nav {
+body > payfunc-portal > portal-login > smoothly-dialog.sc-smoothly-dialog-h > header.sc-smoothly-dialog {
+	height: 3em;
+}
+body > payfunc-portal > portal-login > nav.sc-payfunc-portal {
+	color: white;
 	background-color: black;
 }
+smoothly-icon.sc-payfunc-portal {
+    fill: rgb(var(--smoothly-light-color));
+}
+.sc-smoothly-trigger-h:not([processing]):not([disabled]):hover, .sc-smoothly-trigger-h:not([processing]):not([disabled]):focus, .sc-smoothly-trigger-h:not([processing]):not([disabled]):active {
+	border-color: transparent;
+}
+*:hover > smoothly-icon.sc-payfunc-portal {
+    fill: rgb(var(--smoothly-light-tint));
+}
+/* PayFunc Checkout */
 body > header > h1 {
 	display: none;
 }
@@ -82,15 +98,6 @@ body > header {
 }
 body > main > form > payfunc-checkout > payfunc-customer > form > smoothly-submit > button:hover,
 body > main > form > payfunc-checkout > smoothly-submit > button:hover,
-body > portal-app > portal-login > smoothly-dialog > main > form > smoothly-submit > button:hover {
+body > payfunc-portal > portal-login > smoothly-dialog > main > form > smoothly-submit > button:hover {
 	background-color: rgb(var(--smoothly-primary-color));
-}
-body > portal-app > portal-login > smoothly-dialog > main > header > h1 {
-	display: none;
-}
-body > portal-app > portal-login > smoothly-dialog > main > header {
-	background-image: url("./logo.svg");
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-color: black;
 }
