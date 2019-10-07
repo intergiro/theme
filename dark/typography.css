@@ -1,0 +1,8 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap&subset=latin-ext");
+:root {
+	--smoothly-font-family: "Open Sans", Arial, sans-serif;
+}
+h1 {
+	font-size: 1.4em;
+	font-weight: 400;
+}
