@@ -92,8 +92,6 @@ body > payfunc-display-order > header > h1,
 body > header > h1 {
 	display: none;
 }
-body > payfunc-redo > header,
-body > payfunc-display-order > header,
 body > header {
 	background-image: url("./logo.svg");
 	background-size: contain;
