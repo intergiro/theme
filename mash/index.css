@@ -87,8 +87,6 @@ smoothly-icon.sc-payfunc-portal {
     fill: rgb(var(--smoothly-light-tint));
 }
 /* PayFunc Checkout */
-body > payfunc-redo > header > h2,
-body > payfunc-display-order > header > h1,
 body > header > h1 {
 	display: none;
 }
