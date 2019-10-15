@@ -95,6 +95,7 @@ body > header {
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-color: black;
+	background-position: center;
 }
 body > main > form > payfunc-checkout > payfunc-customer > form > smoothly-submit > button:hover,
 body > main > form > payfunc-checkout > smoothly-submit > button:hover,
