@@ -86,6 +86,9 @@ smoothly-icon.sc-payfunc-portal {
 *:hover > smoothly-icon.sc-payfunc-portal {
     fill: rgb(var(--smoothly-light-tint));
 }
+body > payfunc-portal > portal-login > portal-defer-view > portal-display-defer-list > table > header > * {
+	color: white;
+}
 /* PayFunc Checkout */
 body > header > h1 {
 	display: none;
