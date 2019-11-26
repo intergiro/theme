@@ -74,6 +74,7 @@ body > payfunc-portal > portal-login > smoothly-dialog.sc-smoothly-dialog-h > he
 	height: 3em;
 }
 body > payfunc-portal > portal-login > header > button,
+body > payfunc-portal > portal-login > header > span,
 body > payfunc-portal > portal-login > nav.sc-payfunc-portal {
 	color: white;
 	background-color: black;
