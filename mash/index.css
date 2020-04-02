@@ -12,28 +12,28 @@
 
 	--smoothly-primary-color: 0, 160, 160;
 	--smoothly-primary-contrast: 216, 242, 243;
-	--smoothly-primary-shade: 25, 127, 83;
-	--smoothly-primary-tint: 100, 215, 218;
+	--smoothly-primary-shade: 25, 127, 127;
+	--smoothly-primary-tint: 25, 242, 210;
 
-	--smoothly-secondary-color: 100, 215, 218;
+	--smoothly-secondary-color: 25, 242, 210;
 	--smoothly-secondary-contrast: 216, 242, 243;
 	--smoothly-secondary-shade: 0, 160, 160;
-	--smoothly-secondary-tint: 203, 242, 243;
+	--smoothly-secondary-tint: 203, 252, 231;
 
 	--smoothly-tertiary-color: 0, 225, 233;
 	--smoothly-tertiary-contrast: 230, 249, 255;
 	--smoothly-tertiary-shade: 0, 132, 136;
 	--smoothly-tertiary-tint: 79, 248, 255;
 
-	--smoothly-success-color: 19, 195, 120;
-	--smoothly-success-contrast: 255, 255, 255;
-	--smoothly-success-shade: 25, 127, 83;
+	--smoothly-success-color: 107, 201, 96;
+	--smoothly-success-contrast: 52, 76, 48;
+	--smoothly-success-shade: 58, 127, 77;
 	--smoothly-success-tint: 124, 224, 181;
 
-	--smoothly-warning-color: 232, 190, 0;
-	--smoothly-warning-contrast: 46, 52, 54;
-	--smoothly-warning-shade: 196, 160, 0;
-	--smoothly-warning-tint: 252, 233, 79;
+	--smoothly-warning-color: 254, 255, 116;
+	--smoothly-warning-contrast: 47, 61, 0;
+	--smoothly-warning-shade: 169, 176, 73;
+	--smoothly-warning-tint: 239, 224 166;
 
 	--smoothly-danger-color: 204, 0, 0;
 	--smoothly-danger-contrast: 242, 242, 242;
