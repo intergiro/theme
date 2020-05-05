@@ -1,7 +1,6 @@
 @import "../common/index.css";
-
 :root {
-	--smoothly-font-family: "Open Sans", "Arial Narrow", Arial, sans-serif;
+	--smoothly-font-family: 'Montserrat', sans-serif;
 	--smoothly-semitransparent: .8;
 
 	--smoothly-default-color: 255, 255, 255;
@@ -9,30 +8,35 @@
 	--smoothly-default-shade: 238, 238, 236;
 	--smoothly-default-tint: 136, 138, 133;
 
-	--smoothly-primary-color: 13, 182, 255;
-	--smoothly-primary-contrast: 242, 242, 242;
-	--smoothly-primary-shade: 0, 119, 171;
-	--smoothly-primary-tint: 140, 220, 255;
+	--smoothly-primary-color: 204,0, 0;
+	--smoothly-primary-contrast: 216, 242, 243;
+	--smoothly-primary-shade: 164, 00, 00;
+	--smoothly-primary-tint: 239, 41, 41;
 
-	--smoothly-secondary-color: 0, 40, 91;
-	--smoothly-secondary-contrast: 242, 242, 242;
-	--smoothly-secondary-shade: 0, 18, 41;
-	--smoothly-secondary-tint: 0, 72, 163;
+	--smoothly-secondary-color: 46, 52, 53;
+	--smoothly-secondary-contrast: 238, 238, 238;
+	--smoothly-secondary-shade: 0, 0, 0;
+	--smoothly-secondary-tint: 85, 87, 83;
 
-	--smoothly-tertiary-color: 0, 225, 233;
-	--smoothly-tertiary-contrast: 242, 242, 242;
-	--smoothly-tertiary-shade: 0, 132, 136;
-	--smoothly-tertiary-tint: 79, 248, 255;
+	--smoothly-tertiary-color: 52, 101, 164;
+	--smoothly-tertiary-contrast: 238, 238, 238;
+	--smoothly-tertiary-shade: 32, 74, 135;
+	--smoothly-tertiary-tint: 114, 159, 207;
 
-	--smoothly-success-color: 115, 210, 22;
-	--smoothly-success-contrast: 255, 255, 255;
-	--smoothly-success-shade: 78, 154, 6;
-	--smoothly-success-tint: 138, 226, 52;
+	--smoothly-medium-color: 112, 112, 112;
+	--smoothly-medium-contrast: 238, 238, 236;
+	--smoothly-medium-shade: 46, 52, 54;
+	--smoothly-medium-tint: 136, 138, 133;
 
-	--smoothly-warning-color: 237, 212, 0;
-	--smoothly-warning-contrast: 46, 52, 54;
-	--smoothly-warning-shade: 196, 160, 0;
-	--smoothly-warning-tint: 252, 233, 79;
+	--smoothly-success-color: 117,189,52;
+	--smoothly-success-contrast: 42,53,40;
+	--smoothly-success-shade: 76, 110, 47;
+	--smoothly-success-tint: 138, 212, 84;
+
+	--smoothly-warning-color: 233, 215, 57;
+	--smoothly-warning-contrast: 17,21, 0;
+	--smoothly-warning-shade: 219, 187, 8;
+	--smoothly-warning-tint: 255, 244, 116;
 
 	--smoothly-danger-color: 204, 0, 0;
 	--smoothly-danger-contrast: 242, 242, 242;
@@ -43,12 +47,7 @@
 	--smoothly-light-contrast: 46, 52, 54;
 	--smoothly-light-shade: 186, 189, 182;
 	--smoothly-light-tint: 238, 238, 236;
-
-	--smoothly-medium-color: 186, 189, 182;
-	--smoothly-medium-contrast: 46, 52, 54;
-	--smoothly-medium-shade: 136, 138, 133;
-	--smoothly-medium-tint: 211, 215, 207;
-
+	
 	--smoothly-dark-color: 85, 87, 83;
 	--smoothly-dark-contrast: 238, 238, 236;
 	--smoothly-dark-shade: 46, 52, 54;
@@ -56,4 +55,50 @@
 
 	--smoothly-shadow: 0 0 4px 2px rgba(var(--smoothly-dark-color), 0.15);
 	--smoothly-shadow-strong: 0 0 4px 4px rgba(var(--smoothly-dark-color), 0.25);
+}
+/* PayFunc Portal */
+body > payfunc-portal > portal-login > header > h1,
+body > payfunc-portal > portal-login > smoothly-dialog > header > h1 {
+	display: none;
+}
+body > payfunc-portal > portal-login > header.sc-payfunc-portal,
+body > payfunc-portal > portal-login > smoothly-dialog.sc-smoothly-dialog-h > header.sc-smoothly-dialog {
+	background-image: url("./payfunc-d1.svg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-color: black;
+}
+body > payfunc-portal > portal-login > smoothly-dialog.sc-smoothly-dialog-h > header.sc-smoothly-dialog {
+	height: 3em;
+}
+body > payfunc-portal > portal-login > header > button,
+body > payfunc-portal > portal-login > header > span,
+body > payfunc-portal > portal-login > nav.sc-payfunc-portal {
+	color: white;
+	background-color: black;
+}
+smoothly-icon.sc-payfunc-portal {
+    fill: rgb(var(--smoothly-light-color));
+}
+.sc-smoothly-trigger-h:not([processing]):not([disabled]):hover, .sc-smoothly-trigger-h:not([processing]):not([disabled]):focus, .sc-smoothly-trigger-h:not([processing]):not([disabled]):active {
+	border-color: transparent;
+}
+*:hover > smoothly-icon.sc-payfunc-portal {
+    fill: rgb(var(--smoothly-light-tint));
+}
+/* PayFunc Checkout */
+body > header > h1 {
+	display: none;
+}
+body > header {
+	background-image: url("./payfunc-d1.svg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-color: black;
+	background-position: center;
+}
+body > main > form > payfunc-checkout > payfunc-customer > form > smoothly-submit > button:hover,
+body > main > form > payfunc-checkout > smoothly-submit > button:hover,
+body > payfunc-portal > portal-login > smoothly-dialog > main > form > smoothly-submit > button:hover {
+	background-color: rgb(var(--smoothly-primary-color));
 }
