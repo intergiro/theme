@@ -100,5 +100,5 @@ body > header {
 body > main > form > payfunc-checkout > payfunc-customer > form > smoothly-submit > button:hover,
 body > main > form > payfunc-checkout > smoothly-submit > button:hover,
 body > payfunc-portal > portal-login > smoothly-dialog > main > form > smoothly-submit > button:hover {
-	background-color: rgb(var(--smoothly-primary-color));
+	background-color: rgb(var(--smoothly-success-tint));
 }
