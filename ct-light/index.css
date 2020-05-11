@@ -87,16 +87,6 @@ smoothly-icon.sc-payfunc-portal {
     fill: rgb(var(--smoothly-light-tint));
 }
 /* PayFunc Checkout */
-body > header > h1 {
-	display: none;
-}
-body > header {
-	background-image: url("./payfunc-d1.svg");
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-color: black;
-	background-position: center;
-}
 body > main > form > payfunc-checkout > payfunc-customer > form > smoothly-submit > button:hover,
 body > main > form > payfunc-checkout > smoothly-submit > button:hover,
 body > payfunc-portal > portal-login > smoothly-dialog > main > form > smoothly-submit > button:hover {
