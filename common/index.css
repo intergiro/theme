@@ -73,24 +73,28 @@ html,
 [color]:not([fill]),
 [fill=default] {
 	color: rgb(var(--smoothly-color-contrast));
+	stroke: rgb(var(--smoothly-color-contrast));
 	fill: rgb(var(--smoothly-color-contrast));
 	background: rgb(var(--smoothly-color));
 	border-color: transparent;
 }
 [fill=outline] {
 	color: rgb(var(--smoothly-color));
+	stroke: rgb(var(--smoothly-color));
 	fill: rgb(var(--smoothly-color));
 	background: transparent;
 	border-color: rgb(var(--smoothly-color));
 }
 [fill=clear] {
 	color: rgb(var(--smoothly-color));
+	stroke: rgb(var(--smoothly-color));
 	fill: rgb(var(--smoothly-color));
 	background: transparent;
 	border-color: transparent;
 }
 [fill=solid] {
 	color: rgb(var(--smoothly-color-contrast));
+	stroke: rgb(var(--smoothly-color-contrast));
 	fill: rgb(var(--smoothly-color-contrast));
 	background: rgb(var(--smoothly-color));
 	border-color: rgb(var(--smoothly-color));
