@@ -57,7 +57,15 @@
 	--smoothly-shadow: 0 0 4px 4px rgba(var(--smoothly-dark-shade), 0.15);
 	--smoothly-shadow-strong: 0 0 4px 4px rgba(var((--smoothly-dark-shade), 0.25));
 }
-
+smoothly-app > header > h1 > a {
+	color: transparent;
+	width: 10em;
+	background-image: url("https://theme.payfunc.com/dark/payfunc-d1.svg");
+	background-repeat: no-repeat;
+	background-position-x: -.5em;
+	background-size: contain;
+}
+/* DEPRECATED */
 html > body > payfunc-portal > portal-login > header > h1 {
 	display: none;
 }
