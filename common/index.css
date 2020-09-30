@@ -8,6 +8,12 @@ button {
 html {
 	font-family: var(--smoothly-font-family);
 }
+a, a:visited {
+	color: inherit;
+}
+a:hover {
+	cursor: pointer;
+}
 html,
 [color=default] {
 	--smoothly-color: var(--smoothly-default-color);
