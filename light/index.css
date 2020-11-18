@@ -1,6 +1,6 @@
 @import "../common/index.css";
+@import "../dark/typography.css";
 :root {
-	--smoothly-font-family: 'Montserrat', sans-serif;
 	--smoothly-semitransparent: .8;
 
 	--smoothly-default-color: 255, 255, 255;
