@@ -1,0 +1,78 @@
+@import "../common/index.css";
+@import "../dark/typography.css";
+:root {
+    --smoothly-semitransparent: 0.8;
+
+    --smoothly-default-color: 255, 255, 255;
+    --smoothly-default-contrast: 46, 52, 54;
+    --smoothly-default-shade: 234, 234, 231;
+    --smoothly-default-tint: 136, 138, 133;
+
+    --smoothly-primary-color: 0, 24, 140;
+    --smoothly-primary-contrast: 242, 242, 242;
+    --smoothly-primary-shade: 0, 14, 82;
+    --smoothly-primary-tint: 0, 31, 182;
+
+    --smoothly-secondary-color: 0, 98, 140;
+    --smoothly-secondary-contrast: 242, 242, 242;
+    --smoothly-secondary-shade: 0, 57, 82;
+    --smoothly-secondary-tint: 0, 127, 182;
+
+    --smoothly-tertiary-color: 0, 147, 152;
+    --smoothly-tertiary-contrast: 242, 242, 242;
+    --smoothly-tertiary-shade: 0, 80, 83;
+    --smoothly-tertiary-tint: 0, 187, 195;
+
+    --smoothly-medium-color: 110, 117, 120;
+    --smoothly-medium-contrast: 242, 242, 242;
+    --smoothly-medium-shade: 67, 72, 73;
+    --smoothly-medium-tint: 123, 131, 132;
+
+    --smoothly-success-color: 0, 140, 24;
+    --smoothly-success-contrast: 242, 242, 242;
+    --smoothly-success-shade: 0, 82, 1;
+    --smoothly-success-tint: 0, 182, 31;
+
+    --smoothly-warning-color: 165, 148, 0;
+    --smoothly-warning-contrast: 242, 242, 242;
+    --smoothly-warning-shade: 123, 100, 0;
+    --smoothly-warning-tint: 192, 172, 3;
+
+    --smoothly-danger-color: 140, 0, 0;
+    --smoothly-danger-contrast: 242, 242, 242;
+    --smoothly-danger-shade: 82, 00, 00;
+    --smoothly-danger-tint: 169, 14, 14;
+
+    --smoothly-dark-color: 69, 71, 70;
+    --smoothly-dark-contrast: 242, 242, 242;
+    --smoothly-dark-shade: 44, 43, 38;
+    --smoothly-dark-tint: 89, 90, 92;
+
+    --smoothly-light-color: 220, 224, 224;
+    --smoothly-light-contrast: 54, 52, 46;
+    --smoothly-light-shade: 209, 213, 213;
+    --smoothly-light-tint: 237, 238, 239;
+
+    --smoothly-shadow: 0 0 4px 2px rgba(var(--smoothly-light-color), 0.25);
+    --smoothly-shadow-strong: 0 0 4px 4px rgba(var(--smoothly-light-color), 0.25);
+}
+smoothly-app > header > h1 > a,
+smoothly-app > smoothly-notifier > header > h1 > a {
+    color: transparent;
+    width: 10em;
+    background-image: url("https://brand.payfunc.com/logo/payfunc-l10.svg");
+    background-repeat: no-repeat;
+    background-position-x: -0.5em;
+    background-size: contain;
+}
+/* DEPRECATED */
+html > body > payfunc-portal > portal-login > header > h1 {
+    display: none;
+}
+html > body > payfunc-portal > portal-login > header,
+html > body > payfunc-portal > portal-login > smoothly-dialog > main > header {
+    background-image: url("https://brand.payfunc.com/logo/payfunc-l10.svg");
+    background-repeat: no-repeat;
+    background-position-x: -0.5em;
+    background-size: contain;
+}
