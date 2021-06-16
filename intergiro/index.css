@@ -1,20 +1,22 @@
 @import "../common/index.css";
 @import "../dark/typography.css";
 :root {
+	--smoothly-font-family: "Gellix", "Open Sans",Arial, sans-serif;
+
 	--smoothly-semitransparent: .8;
 
 	--smoothly-default-color: 255, 255, 255; 
-	--smoothly-default-contrast: 63, 60, 57; 
+	--smoothly-default-contrast: 0, 0, 0; 
 	--smoothly-default-shade: 243, 244, 245;
 	--smoothly-default-tint: 254, 226, 190; 
 
-	--smoothly-primary-color: 64, 89, 167;
+	--smoothly-primary-color: 0, 0, 0;
 	--smoothly-primary-contrast: 255, 255, 255;
-	--smoothly-primary-shade: 49, 69, 129;
-	--smoothly-primary-tint: 144, 161, 213; 
+	--smoothly-primary-shade: 255, 0, 255;
+	--smoothly-primary-tint: 122, 140, 198; 
 
-	--smoothly-secondary-color: 214, 214, 218; 
-	--smoothly-secondary-contrast: 17, 17, 17; 
+	--smoothly-secondary-color: 62, 60, 57; 
+	--smoothly-secondary-contrast: 0, 0, 0; 
 	--smoothly-secondary-shade: 117, 117, 127; 
 	--smoothly-secondary-tint: 243, 244, 245;  
 
@@ -25,7 +27,7 @@
 
 	--smoothly-medium-color:  117, 117, 127;  
 	--smoothly-medium-contrast: 255, 255, 255; 
-	--smoothly-medium-shade: 63, 60, 57; 
+	--smoothly-medium-shade: 0, 0, 0; 
 	--smoothly-medium-tint: 255, 255, 255; 
 
 	--smoothly-success-color: 0, 166, 115;
@@ -33,10 +35,10 @@
 	--smoothly-success-shade: 76, 110, 47;
 	--smoothly-success-tint: 118, 186, 68;
 
-	--smoothly-warning-color: 216, 208, 61;
+	--smoothly-warning-color: 247, 158, 27;
 	--smoothly-warning-contrast: 17,21, 0;
-	--smoothly-warning-shade: 219, 187, 8;
-	--smoothly-warning-tint: 255, 244, 116;
+	--smoothly-warning-shade: 212, 129, 7;
+	--smoothly-warning-tint: 250, 186, 93;
 
 	--smoothly-danger-color: 235, 89, 56; 
 	--smoothly-danger-contrast: 242, 242, 242;
@@ -44,11 +46,11 @@
 	--smoothly-danger-tint: 239, 41, 41;
 
 	--smoothly-dark-color: 243, 244, 245;  
-	--smoothly-dark-contrast: 63, 60, 57; 
-	--smoothly-dark-shade: 254, 226, 190; 
+	--smoothly-dark-contrast: 0, 0, 0; 
+	--smoothly-dark-shade: 243, 244, 245; 
 	--smoothly-dark-tint: 238, 238, 236;
 	
-	--smoothly-light-color: 63, 60, 57;
+	--smoothly-light-color: 0, 0, 0;
 	--smoothly-light-contrast: 238, 238, 236;
 	--smoothly-light-shade: 46, 52, 54;
 	--smoothly-light-tint: 136, 138, 133;
@@ -59,7 +61,8 @@
 smoothly-app > header > h1 > a,
 smoothly-app > smoothly-notifier > header > h1 > a {
 	color: transparent;
-	width: 10em;
+	width: 8em;
+	margin: 0.25em;
 	background-image: url("./intergiro.svg");
 	background-repeat: no-repeat;
 	background-size: contain;
