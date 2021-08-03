@@ -62,6 +62,7 @@ smoothly-app > header > h1 > a,
 smoothly-app > smoothly-notifier > header > h1 > a {
 	color: transparent;
 	width: 5em;
+	height: 1.6em;
 	margin: 0.75em;
 	background-image: url("./intergiro.svg");
 	background-repeat: no-repeat;
