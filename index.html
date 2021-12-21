@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=devicscale=1.0">
+  <title>Themes</title>
+  <link rel="stylesheet" href="./intergiro/index.css">
+  <style>
+    body>div {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 1em;
+    }
+
+    body>span {
+      display: block;
+      width: max-content;
+      padding: 0.75em 2em;
+    }
+  </style>
+  <script>
+    window.onload = () => {
+      ["default", "primary", "secondary", "tertiary", "medium", "success", "warning", "danger", "dark", "light"].forEach((a) => {
+        let div = document.createElement("div");
+        div.style.color = `rgb(var(--smoothly-${a}-contrast))`;
+        (["tint", "color", "shade"]).forEach(b => {
+          console.log(a, b)
+          let span = document.createElement("span")
+          span.style.backgroundColor = `rgb(var(--smoothly-${a}-${b}))`
+          span.innerText = `smoothly-${a}-${b}`
+          div.appendChild(span)
+        })
+        document.body.appendChild(div)
+      })
+    }
+  </script>
+</head>
+
+<body>
+</body>
+
+</html>
