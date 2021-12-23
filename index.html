@@ -14,10 +14,10 @@
       margin-bottom: 1em;
     }
 
-    body>span {
-      display: block;
-      width: max-content;
-      padding: 0.75em 2em;
+    body > div > span {
+      display: flex;
+      justify-content: space-around;
+      padding: 0.25em 2em;
     }
   </style>
   <script>
@@ -28,8 +28,9 @@
         (["tint", "color", "shade"]).forEach(b => {
           console.log(a, b)
           let span = document.createElement("span")
+          const color = getComputedStyle(document.documentElement).getPropertyValue(`--smoothly-${a}-${b}`);
           span.style.backgroundColor = `rgb(var(--smoothly-${a}-${b}))`
-          span.innerText = `smoothly-${a}-${b}`
+          span.innerHTML = `<span>smoothly-${a}-${b}</span><span>${color}</span><span>#${color.split(",").map(c => Number(c).toString(16).toUpperCase()).join("")}</span>`
           div.appendChild(span)
         })
         document.body.appendChild(div)
