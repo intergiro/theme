@@ -1,10 +1,4 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap&subset=latin-ext");
-@font-face{
-	font-family:"Gellix";
-	src:url("./Gellix-Medium.07b91aa1.woff2")format('woff2'),
-	url("./Gellix-Regular.24284fb2.woff2")format('woff2'),
-	url("./Gellix-SemiBold.36ade5eb.woff2")format('woff2');
-}
 :root {
 	--smoothly-font-family: "Open Sans", Arial, sans-serif;
 }
