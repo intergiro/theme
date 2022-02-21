@@ -1,6 +1,10 @@
 @import "../common/index.css";
 @import "../dark/typography.css";
 @import "./variables.css";
+body {
+	margin: 0;
+	padding: 0;
+}
 smoothly-app > header > h1 > a,
 smoothly-app > smoothly-notifier > header > h1 > a {
 	color: transparent;
@@ -10,4 +14,11 @@ smoothly-app > smoothly-notifier > header > h1 > a {
 	background-image: url("./intergiro.svg");
 	background-repeat: no-repeat;
 	background-size: contain;
+}
+
+smoothly-input-date-range {
+	--background: rgb(var(--smoothly-dark-shade));
+	--border-radius: 4px;
+	--padding: 0 0.75em;
+	--input-width: 6rem;
 }
