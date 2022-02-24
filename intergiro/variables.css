@@ -1,8 +1,8 @@
 @font-face{
 	font-family:"Gellix";
-	src:url("./Gellix-Medium.07b91aa1.woff2")format('woff2'),
-	url("./Gellix-Regular.24284fb2.woff2")format('woff2'),
-	url("./Gellix-SemiBold.36ade5eb.woff2")format('woff2');
+	src:url("./Gellix-Medium.woff2")format('woff2'),
+	url("./Gellix-Regular.woff2")format('woff2'),
+	url("./Gellix-SemiBold.woff2")format('woff2');
 }
 :root {
 	--smoothly-font-family: "Gellix", "Open Sans", Arial, sans-serif;
