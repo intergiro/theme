@@ -8,12 +8,12 @@ body {
 smoothly-app > header > h1 > a,
 smoothly-app > smoothly-notifier > header > h1 > a {
 	color: transparent;
-	width: 36px;
-	height: 36px;
+	width: 2.25rem;
+	height: 2.25rem;
 	margin: 0.75em;
 	background-image: url("./intergiro.svg");
 	background-repeat: no-repeat;
-	background-size: 36px;
+	background-size: 2.25rem;
 }
 
 smoothly-input-date-range {
