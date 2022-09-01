@@ -1,113 +1,112 @@
-audio,
-canvas,
-progress,
-video {
+smoothly-notifier audio,
+smoothly-notifier canvas,
+smoothly-notifier progress,
+smoothly-notifier video {
   vertical-align: baseline;
 }
 
-audio:not([controls]) {
+smoothly-notifier audio:not([controls]) {
   display: none;
   height: 0;
 }
 
-b,
-strong {
+smoothly-notifier b,
+smoothly-notifier strong {
   font-weight: bold;
 }
 
-img {
+smoothly-notifier img {
   max-width: 100%;
   border: 0;
 }
 
-svg:not(:root) {
+smoothly-notifier svg:not(:root) {
   overflow: hidden;
 }
 
-figure {
+smoothly-notifier figure {
   margin: 1em 40px;
 }
 
-hr {
+smoothly-notifier hr {
   height: 1px;
   border-width: 0;
   box-sizing: content-box;
 }
 
-pre {
+smoothly-notifier pre {
   overflow: auto;
 }
 
-code,
-kbd,
-pre,
-samp {
+smoothly-notifier code,
+smoothly-notifier kbd,
+smoothly-notifier pre,
+smoothly-notifier samp {
   font-family: monospace, monospace;
   font-size: 1em;
 }
 
-label,
-input,
-select,
-textarea {
+smoothly-notifier label,
+smoothly-notifier input,
+smoothly-notifier select,
+smoothly-notifier textarea {
   font-family: inherit;
   line-height: normal;
 }
 
-textarea {
+smoothly-notifier textarea {
   overflow: auto;
   height: auto;
   font: inherit;
   color: inherit;
 }
 
-textarea::placeholder {
+smoothly-notifier textarea::placeholder {
   padding-left: 2px;
 }
 
-form,
-input,
-optgroup,
-select {
+smoothly-notifier form,
+smoothly-notifier input,
+smoothly-notifier optgroup,
+smoothly-notifier select {
   margin: 0;
   font: inherit;
   color: inherit;
 }
 
-html input[type=button],
-input[type=reset],
+html smoothly-notifier input[type=button],
+smoothly-notifier input[type=reset],
 input[type=submit] {
   cursor: pointer;
   -webkit-appearance: button;
 }
-
-a,
-a div,
-a span,
-a ion-icon,
-a ion-label,
-button,
-button div,
-button span,
-button ion-icon,
-button ion-label,
-.ion-tappable,
-[tappable],
-[tappable] div,
-[tappable] span,
-[tappable] ion-icon,
-[tappable] ion-label,
-input,
-textarea {
+smoothly-notifier a,
+smoothly-notifier a div,
+smoothly-notifier a span,
+smoothly-notifier a ion-icon,
+smoothly-notifier a ion-label,
+smoothly-notifier button,
+smoothly-notifier button div,
+smoothly-notifier button span,
+smoothly-notifier button ion-icon,
+smoothly-notifier button ion-label,
+smoothly-notifier .ion-tappable,
+smoothly-notifier [tappable],
+smoothly-notifier [tappable] div,
+smoothly-notifier [tappable] span,
+smoothly-notifier [tappable] ion-icon,
+smoothly-notifier [tappable] ion-label,
+smoothly-notifier input,
+smoothly-notifier textarea {
   touch-action: manipulation;
 }
 
-a ion-label,
-button ion-label {
+smoothly-notifier a ion-label,
+smoothly-notifier button ion-label {
   pointer-events: none;
 }
 
-button {
+smoothly-notifier button {
   border: 0;
   border-radius: 0;
   font-family: inherit;
@@ -119,45 +118,45 @@ button {
   -webkit-appearance: button;
 }
 
-[tappable] {
+smoothly-notifier [tappable] {
   cursor: pointer;
 }
 
-a[disabled],
-button[disabled],
-html input[disabled] {
+smoothly-notifier a[disabled],
+smoothly-notifier button[disabled],
+smoothly-notifier html input[disabled] {
   cursor: default;
 }
 
-button::-moz-focus-inner,
-input::-moz-focus-inner {
+smoothly-notifier button::-moz-focus-inner,
+smoothly-notifier input::-moz-focus-inner {
   padding: 0;
   border: 0;
 }
 
-input[type=checkbox],
-input[type=radio] {
+smoothly-notifier input[type=checkbox],
+smoothly-notifier input[type=radio] {
   padding: 0;
   box-sizing: border-box;
 }
 
-input[type=number]::-webkit-inner-spin-button,
-input[type=number]::-webkit-outer-spin-button {
+smoothly-notifier input[type=number]::-webkit-inner-spin-button,
+smoothly-notifier input[type=number]::-webkit-outer-spin-button {
   height: auto;
 }
 
-input[type=search]::-webkit-search-cancel-button,
-input[type=search]::-webkit-search-decoration {
+smoothly-notifier input[type=search]::-webkit-search-cancel-button,
+smoothly-notifier input[type=search]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
-table {
+smoothly-notifier table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-td,
-th {
+smoothly-notifier td,
+smoothly-notifier th {
   padding: 0;
 }
 
