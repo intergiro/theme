@@ -14,7 +14,7 @@ smoothly-notifier a,smoothly-notifier a:visited {
 smoothly-notifier a:hover {
 	cursor: pointer;
 }
-html,
+html smoothly-notifier,
 smoothly-notifier [color=default] {
 	--smoothly-color: var(--smoothly-default-color);
 	--smoothly-color-contrast: var(--smoothly-default-contrast);
