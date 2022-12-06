@@ -2,22 +2,11 @@
 @import "./variables.css";
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap&subset=latin-ext");
 
-smoothly-app > header > h1 > a,
-smoothly-app > smoothly-notifier > header > h1 > a {
-	color: transparent;
-	width: 2.25rem;
-	height: 2.25rem;
-	margin: 0.75em;
-	background-image: url("./intergiro.svg");
-	background-repeat: no-repeat;
-	background-size: 2.25rem;
-}
-
 smoothly-input-date-range {
 	--background: rgb(var(--smoothly-dark-shade));
 	--border-radius: 4px;
 	--padding: 0 0.75em;
-	--input-width: 6rem;
+	--input-width: 8rem;
 }
 smoothly-app h1 {
 	font-size: 1.4em;
