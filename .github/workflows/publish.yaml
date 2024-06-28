@@ -5,11 +5,9 @@ on:
       - CPDE-2864
 
 jobs:
-  job_id:
-    # Add "id-token" with the intended permissions.
-    permissions:
-      contents: 'read'
-      id-token: 'write'
+  upload-to-bucket:
+    name: Upload files to bucket
+    runs-on: [self-hosted, common]
 
     steps:
     - uses: 'actions/checkout@v4'
