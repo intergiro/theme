@@ -22,7 +22,7 @@ jobs:
     - uses: 'actions/checkout@v4'
 
     - name: "Echo in file"
-      run: echo "Test"
+      run: ls -la
 
     - uses: 'google-github-actions/auth@v2'
       with:
@@ -31,6 +31,7 @@ jobs:
     - id: 'upload-folder'
       uses: 'google-github-actions/upload-cloud-storage@v2'
       with:
-        path: '*'
+        path: './'
         destination: 'theme.intergiro.com'
+        parent: false
 
