@@ -7,7 +7,7 @@ on:
 jobs:
   upload-to-bucket:
     name: Upload files to bucket
-    runs-on: [self-hosted, common]
+    runs-on: ubuntu-latest
     container:
       image: europe-docker.pkg.dev/ftcs-production/infrastructure/node-build-tools:20
       credentials:
