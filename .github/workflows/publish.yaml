@@ -13,7 +13,10 @@ jobs:
       credentials:
         username: ${{ secrets.DOCKER_REGISTRY_USER }}
         password: ${{ secrets.DOCKER_REGISTRY_PASSWORD }}
-     
+
+    permissions:
+      contents: 'read'
+      id-token: 'write'
 
     steps:
     - uses: 'actions/checkout@v4'
