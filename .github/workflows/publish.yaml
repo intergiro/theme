@@ -21,6 +21,9 @@ jobs:
     steps:
     - uses: 'actions/checkout@v4'
 
+    - name: "Echo in file"
+      run: echo "Test"
+
     - uses: 'google-github-actions/auth@v2'
       with:
         credentials_json: ${{ secrets.THEME_SERVICE_ACCOUNT }}
