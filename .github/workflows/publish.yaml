@@ -9,7 +9,7 @@ jobs:
     name: Upload files to bucket
     runs-on: [self-hosted, common]
     container:
-      image: europe-docker.pkg.dev/ftcs-production/infrastructure/node-build-tools:16
+      image: europe-docker.pkg.dev/ftcs-production/infrastructure/node-build-tools:20
       credentials:
         username: ${{ secrets.DOCKER_REGISTRY_USER }}
         password: ${{ secrets.DOCKER_REGISTRY_PASSWORD }}
