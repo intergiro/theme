@@ -2,7 +2,7 @@ name: Push files to Google Cloud Storage
 on:
   push:
     branches:
-      - CPDE-2864
+      - master
 
 jobs:
   upload-to-bucket:
