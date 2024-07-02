@@ -7,7 +7,7 @@ on:
 jobs:
   upload-to-bucket:
     name: Upload files to bucket
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, common]
     container:
       image: europe-docker.pkg.dev/ftcs-production/infrastructure/node-build-tools:20
       credentials:
@@ -29,4 +29,4 @@ jobs:
       uses: 'google-github-actions/setup-gcloud@v2'
 
     - name: 'Use gsutil CLI'
-      run: 'gsutil rsync -rd -x "\.git|gha*" . gs://theme.intergiro.com'
+      run: 'gsutil -m rsync -rd -x "\.git|gha*" . gs://theme.intergiro.com'
