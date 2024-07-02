@@ -21,9 +21,6 @@ jobs:
     steps:
     - uses: 'actions/checkout@v4'
 
-    - name: "Echo in file"
-      run: ls -la
-
     - uses: 'google-github-actions/auth@v2'
       with:
         credentials_json: ${{ secrets.THEME_SERVICE_ACCOUNT }}
@@ -32,12 +29,4 @@ jobs:
       uses: 'google-github-actions/setup-gcloud@v2'
 
     - name: 'Use gsutil CLI'
-      run: 'gsutil rsync -rd -x \.git . gs://theme.intergiro.com'
-
-    # - id: 'upload-folder'
-    #   uses: 'google-github-actions/upload-cloud-storage@v2'
-    #   with:
-    #     path: './'
-    #     destination: 'theme.intergiro.com'
-    #     parent: false
-
+      run: 'gsutil rsync -rd -x "\.git|gha*" . gs://theme.intergiro.com'
