@@ -1,0 +1,32 @@
+name: Push files to Google Cloud Storage
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  upload-to-bucket:
+    name: Upload files to bucket
+    runs-on: [self-hosted, common]
+    container:
+      image: europe-docker.pkg.dev/ftcs-production/infrastructure/node-build-tools:20
+      credentials:
+        username: ${{ secrets.DOCKER_REGISTRY_USER }}
+        password: ${{ secrets.DOCKER_REGISTRY_PASSWORD }}
+
+    permissions:
+      contents: 'read'
+      id-token: 'write'
+
+    steps:
+    - uses: 'actions/checkout@v4'
+
+    - uses: 'google-github-actions/auth@v2'
+      with:
+        credentials_json: ${{ secrets.THEME_SERVICE_ACCOUNT }}
+
+    - name: 'Set up Cloud SDK'
+      uses: 'google-github-actions/setup-gcloud@v2'
+
+    - name: 'Use gsutil CLI'
+      run: 'gsutil -m rsync -rd -x "\.git|gha*" . gs://theme.intergiro.com'
