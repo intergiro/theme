@@ -1,0 +1,13 @@
+[class*="smoothly"] [color="danger"] {
+  --smoothly-color: var(--smoothly-danger-color);
+  fill: rgb(var(--smoothly-color))
+}
+
+[class*="smoothly"] {
+  font-family: var(--smoothly-font-family)
+}
+
+[class*="smoothly"] input {
+  color: inherit;
+  font-weight: inherit
+}
